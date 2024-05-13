@@ -1,2 +1,2 @@
 # formula
-a simple example how to fetch data from a mysql database
+a simple example how to fetch data from a mysql database using PHP.
