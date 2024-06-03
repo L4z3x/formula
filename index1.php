@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formula</title>
     <link rel="stylesheet" href="./form.css">
     <script src="./script.js"></script>
 </head>
@@ -34,7 +34,7 @@
     <div class="container"> 
         <center>
             <div>
-                <img <?php echo 'src="./pic_'.$value['id'].'.jpeg"';?> alt="profile-picture">
+            <img src="<?php echo 'data:image/jpeg;base64,' . base64_encode($value2['img']); ?>" alt="profile-picture">
             </div>
         </center>
         <div class="data">
@@ -91,5 +91,4 @@
             </form>
         </div>
     </center>
-</body>
 </html>
